@@ -9,9 +9,31 @@ public class NaturalNumbers {
 
         int n=sc.nextInt();
 
-//        for(int i=0;i<=n;i++){
-//            System.out.print(i + "\t");
-//        }
+        for(int i=0;i<=n;i++){
+            System.out.print(i + "\t");
+        }
+
+        int i=0;
+        while (i<=n){
+            System.out.print(i + "\t");
+            i++;
+        }
+
+        int x=0;
+
+        do{
+            System.out.print(x + "\t");
+            x++;
+        }while (x<=n);
+
+
+
+
+
+
+
+
+
 //        System.out.println("");
 //
 //        for(int i=n;i>=0;i--){
@@ -22,13 +44,13 @@ public class NaturalNumbers {
 //            System.out.print(i + "+");
 //        }
 
-        int sum=0;
-
-        for(int i=0;i<=n;i++){
-            sum = sum+i;
-        }
-
-        System.out.println("sum of natural numbers :== " + sum);
+//        int sum=0;
+//
+//        for(int i=0;i<=n;i++){
+//            sum = sum+i;
+//        }
+//
+//        System.out.println("sum of natural numbers :== " + sum);
 
     }
 }
